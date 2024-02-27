@@ -1,0 +1,142 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: "Merriweather", serif;
+}
+
+p, a, li {
+    font-family: "Quicksand", sans-serif;
+    text-decoration: none;
+    padding-bottom: 9px;
+}
+
+.btn {
+    padding: 6px 9px;
+    font-size: 18px;
+    font-weight: 450;
+    background-color: #b3b2b2;
+    color: aliceblue;
+    border: 1px solid #111111;
+}
+
+.btn:hover {
+    background-color: #0000ff;
+}
+
+.post {
+    display: flex;
+    width: 87%;
+    margin: auto;
+    align-content: space-between;
+    
+}
+
+.card {
+    border-bottom: 1px solid #b3b2b2;
+    padding: 27px 0;
+}
+
+.title {
+    padding: 18px 0 18px 21px;
+}
+
+.card img {
+    width: 875px; /* adjust the width as needed */
+    object-fit: cover;
+}
+
+.side {
+    margin: 0 9px;
+}
+
+.side .card {
+    padding: 60px 18px 45px 18px;
+    border-bottom: 1px solid #b3b2b2;
+}
+
+.about, .contact {
+    width: 52%;
+    margin: auto;
+    padding: 75px 0 45px 0;
+    border-bottom: #b3b2b2 1px solid;
+}
+
+.about h1, .contact h1 {
+    padding-bottom: 30px;
+}
+
+.contact form {
+    width: 100%;
+    padding: 21px 0;
+    font-size: 18px;
+    font-weight: bold;
+    font-family: "Quicksand", sans-serif;
+}
+
+.contact input, textarea {
+    width: 100%;
+    margin-bottom: 12px;
+    font-size: 21px;
+    padding: 0 9px;
+    outline-width: 0;
+    border: 1px solid #b3b2b2;
+}
+
+footer {
+    text-align: center;
+    color: #b3b2b2;
+    background-color: #111111;
+    margin-top: 60px;
+}
+
+footer ul {
+    display: flex;
+    height: 75px;
+    width: 27%;
+    margin: auto;
+    list-style: none;
+    justify-content: space-around;
+    align-items: center;
+    align-items: center;
+}
+
+footer a {
+    color: #b3b2b2;
+    font-size: 18px;
+}
+
+footer div{
+    width: 36%;
+    border-top: #b3b2b2 1px solid;
+    padding: 27px;
+    margin: auto;
+    font-size: 12px;
+}
+
+@media (max-width: 1024px) {
+    .about, .contact {
+        width: 85%;
+        margin: auto;
+        border-bottom: #b3b2b2 1px solid;
+    }
+    
+    .about h1, .contact h1 {
+        padding-bottom: 30px;
+    }
+    
+    footer a {
+        font-size: 15px;
+    }
+
+    footer div{
+        width: 96%;
+        border-top: #b3b2b2 1px solid;
+        padding: 18px;
+        margin: auto;
+        font-size: 12px;
+    }   
+}

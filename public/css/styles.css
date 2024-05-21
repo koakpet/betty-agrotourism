@@ -32,7 +32,10 @@ p, a, li {
     width: 87%;
     margin: auto;
     align-content: space-between;
-    
+}
+
+.main {
+    width: 81%;
 }
 
 .card {
@@ -46,11 +49,12 @@ p, a, li {
 
 .card img {
     width: 875px; /* adjust the width as needed */
+    height: 450px;
     object-fit: cover;
 }
 
 .side {
-    margin: 0 9px;
+    margin: 0 60px;
 }
 
 .side .card {
@@ -121,10 +125,13 @@ footer div{
     .post {
         display: flex;
         flex-direction: column;
-        width: 90%;
+        width: 93%;
         margin: auto;
         align-content: space-between;
-        
+    }
+
+    .main {
+        width: 100%;
     }
     
     .card {
@@ -138,6 +145,7 @@ footer div{
     
     .card img {
         width: 100%; /* adjust the width as needed */
+        height: 270px;
         object-fit: cover;
     }
     

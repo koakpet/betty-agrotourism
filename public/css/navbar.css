@@ -106,6 +106,7 @@ nav {
     }
     
     .nav-menu {
+        background-color: #ffffff;
         position: fixed;
         top: -100%;
         flex-direction: column;

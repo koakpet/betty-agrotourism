@@ -15,23 +15,33 @@ app.use(bodyParser.urlencoded({extended: true}));
 app.set('view engine', 'ejs');
 
 
+const post = [
+  {
+    title: "A Trip To Banadonase Farm",
+    author: "Olaitan Ariyo",
+    date: "Thursday, 3rd September 2015",
+    article: "When you hear about women in aquaculture here is an example of one, meet mrs glory adonase,, a fisheries graduate and professional. Talk about fish farming in cross River state and you have the right woman, in need of good quality fingerlings then Banadonase Farm is the right place. The farm boast of good breed and low or zero mortality rate fingerlings . In need of good quality table size fish and hygienically processed catfish, banadonase farm is the place for you. They are located at 73 parliamentary extension in Calabar .... Phone no- 08036813836",
+    image: "wia_1.jpg"
+  }
+]
+
 // ROUTES
 // Route Control for the Home Page
-app.get('/', function(req,res){
-  res.render('index');
+app.get('/', function(req, res){
+  res.render('index', {title:post[0].title, author:post[0].author, date:post[0].date, article:post[0].article, image:post[0].image});
 });
 
-app.get('/posts', function(req, res){
-  res.render('posts')
-})
+// app.get('/posts', function(req, res){
+//   res.render('posts')
+// })
+
+// // Route Control for the About Page
+// app.get('/about', function(req, res){
+//   res.render('about');
+// });
 
 // Route Control for the About Page
-app.get('/about', function(req,res){
-  res.render('about');
-});
-
-// Route Control for the About Page
-app.get('/about', function(req,res){
+app.get('/about', function(req, res){
     res.render('about');
   });
 

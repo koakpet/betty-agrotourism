@@ -122,6 +122,18 @@ footer div{
 }
 
 @media (max-width: 1024px) {
+    h1 {
+        font-size: 21px;
+    }
+
+    h2 {
+        font-size: 18px;
+    }
+
+    p {
+        font-size: 15px;
+    }
+
     .post {
         display: flex;
         flex-direction: column;

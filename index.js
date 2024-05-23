@@ -17,11 +17,11 @@ app.set('view engine', 'ejs');
 
 const posts = [
   {
-    title: "A Trip To Banadonase Farm",
+    title: "Cage Fish Farming and Economy Development",
     author: "Olaitan Ariyo",
     date: "Thursday, 3rd September 2015",
-    article: "When you hear about women in aquaculture here is an example of one, meet mrs glory adonase,, a fisheries graduate and professional. Talk about fish farming in cross River state and you have the right woman, in need of good quality fingerlings then Banadonase Farm is the right place. The farm boast of good breed and low or zero mortality rate fingerlings . In need of good quality table size fish and hygienically processed catfish, banadonase farm is the place for you. They are located at 73 parliamentary extension in Calabar .... Phone no- 08036813836",
-    image: "wia_1.jpg"
+    article: "Do you know that cage fish farming is creating income opportunities and improving livelihood in Nigeria through skills and capacity development? The Osin Farm in Osun State adopted cage fish culture technology in 2009 and they were able to produce one ton of tilapia fish each with 2x2 meter 18 cages and the farm employ 65 workers mostly youths. If every state in Nigeria adopt cage fish culture technology, unemployment will decrease drastically and of course it will improve our livelihood.",
+    image: "catfish_farming_1.jpg"
   },
 
   {
@@ -33,11 +33,11 @@ const posts = [
   },
 
   {
-    title: "Cage Fish Farming and Economy Development",
+    title: "A Trip To Banadonase Farm",
     author: "Olaitan Ariyo",
-    date: "Thursday, 3rd September 2015",
-    article: "Do you know that cage fish farming is creating income opportunities and improving livelihood in Nigeria through skills and capacity development? The Osin Farm in Osun State adopted cage fish culture technology in 2009 and they were able to produce one ton of tilapia fish each with 2x2 meter 18 cages and the farm employ 65 workers mostly youths. If every state in Nigeria adopt cage fish culture technology, unemployment will decrease drastically and of course it will improve our livelihood.",
-    image: "catfish_farming_1.jpg"
+    date: "Monday, 10th August 2015",
+    article: "When you hear about women in aquaculture here is an example of one, meet mrs glory adonase,, a fisheries graduate and professional. Talk about fish farming in cross River state and you have the right woman, in need of good quality fingerlings then Banadonase Farm is the right place. The farm boast of good breed and low or zero mortality rate fingerlings . In need of good quality table size fish and hygienically processed catfish, banadonase farm is the place for you. They are located at 73 parliamentary extension in Calabar .... Phone no- 08036813836",
+    image: "wia_1.jpg"
   }
 ]
 

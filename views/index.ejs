@@ -6,15 +6,17 @@
         <div class="main">
 
             <% for (i = 0; i < posts.length; i++) { %>
-                <div class="card">
-                    <div class="title">
-                        <p class="timestamp"><%= posts[i].date; %></p>
-                        <h2><%= posts[i].title; %></h2>
-                    </div>
-                    <img src="img/<%= posts[i].image; %>" alt="">
-                    <p>
-                        <%= posts[i].article.slice(0, 180); %>...
-                    </p>
+                <div class="card" href="/post">
+                    <a href="#" style="color: black;">
+                        <div class="title">
+                            <p class="timestamp"><%= posts[i].date; %></p>
+                            <h2><%= posts[i].title; %></h2>
+                        </div>
+                        <img src="img/<%= posts[i].image; %>" alt="">
+                        <p>
+                            <%= posts[i].article.slice(0, 180); %>...
+                        </p>
+                    </a>
                 </div>
             <%  } %>
         </div>

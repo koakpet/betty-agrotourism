@@ -1,72 +1,30 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Betty Agro-Tourism</title>
-    <link href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Quicksand:wght@300..700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="../public/css/styles.css">
-    <link rel="stylesheet" href="../public/css/navbar.css">
-</head>
-<body>
-    <nav>
-        <div><button class="nav-login xs-hid">Log In</button></div>
+<%- include("partials/header") %>
+<%- include("partials/navbar") %>
 
-        <a href="index.html" class="nav-branding">betty agr&#248-tourism</a>
-        
-        <ul class="nav-menu">
-            <li class="nav-item lg-hid"><button class="nav-login">Log In</button></li>
-            <li class="nav-item"><a href="about.html" class="nav-link">About</a></li>
-            <li class="nav-item"><a href="contact.html" class="nav-link">Contact</a></li>
-            <li class="nav-item">
-                <form action="" method="post">
-                    <input type="text" placeholder="Search">
-                </form>
-            </li>
-        </ul>
-                            
-        <div class="hamburger">
-            <span class="bar"></span>
-            <span class="bar"></span>
-            <span class="bar"></span>
+<section class="about-section">
+    <div class="about-container">
+        <div class="profile-pic-container">
+            <img src="img/profile_pic.jpeg" alt="Profile Picture" class="profile-pic">
         </div>
-    </nav>
-
-    <section class="about">
-        <div>
-            <h1>What are we about?</h1>
-            <p>
-                <b>Aliquam lorem ante, dapibus in, viverra quis, feugiat a, tellus. Phasellus viverra nulla ut metus varius laoreet. Quisque rutrum. Aenean imperdiet. Etiam ultricies nisi vel augue. Curabitur ullamcorper ultricies nisi. Nam eget dui. Etiam rhoncus. Maecenas tempus, tellus eget condimentum rhoncus, sem quam semper libero, sit amet adipiscing sem neque sed ipsum. Nam quam nunc, blandit vel, luctus pulvinar, hendrerit id, lorem. Maecenas nec odio et ante tincidunt tempus.</b>
+        <div class="content-container">
+            <h1 class="section-title">Hello... &#x1F44B;</h1>
+            <p class="intro-paragraph">
+                <b>My name is Olaitan (Elizabeth) Ariyo and I am a farmer. This  title alone doesn't fully capture who I am, so let me rephrase that: <i>I am an <u>agripreneur</u> with a passion for promoting sustainable agriculture in Nigeria, especially among women and youths.</i> I am a fully award of the vital <i>yet grossly underestimated</i> role women play in agriculture, which is why I am actively involved in training women to adopt agriculture as a business. Through this, they can make a significant impact not just on their families but ultimately on their communities. </b>
             </p>
-            <p>
-                Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim.
+            <p class="about-paragraph">
+                I can go on and on, about how I have a Bachelor's degree in Forestry, Wildlife and Fisheries Management from the Unversity of Ado-Ekiti or that I am the CEO of Betsyde Nigeria Limited. But what I really want to talk about is the reason behind my passion for Betty Agro-Tourism blog.
             </p>
-            <p>
-                Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem.
+            <p class="about-paragraph">
+                At Betty Agro-Tourism, my mission is to merge agriculture and tourism by encouraging farmers and ranchers to open their properties to the public. This initiative allows individuals and families to enjoy a variety of outdoor activities that are both fun and educational. Visitors can experience the joy of picking fresh produce, learn about sustainable farming practices, and participate in hands-on farm activities. By offering these immersive experiences, I aim to bridge the gap between urban and rural communities, fostering a deeper appreciation for the hard work that goes into farming and the importance of sustainable agricultural practices.
             </p>
-            <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.
+            <p class="about-paragraph">
+                Through my blog, I share the inspiring stories of local farmers who are making significant impacts in their communities. I highlight their successes, challenges, and the innovative farming techniques they use. By creating engaging and informative content, I provide valuable insights into the agricultural sector, discussing both practical and philosophical aspects of farming. My goal is to inspire more people to support and participate in sustainable agriculture, recognizing its critical role in ensuring food security and environmental sustainability.
             </p>
-            <p>
-                Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem.
+            <p class="about-paragraph">
+                By promoting these initiatives, I hope to lead Nigeria towards a future where agriculture is not only a means of livelihood but also a source of pride and community strength. I believe that educating the public and fostering a connection between consumers and producers can create a healthier, more self-sufficient nation. Through Betty Agro-Tourism, I strive to empower individuals to make informed choices about their food and to see the value in supporting local farmers committed to sustainable practices. My ultimate vision is to cultivate a society where agriculture is celebrated and respected for its indispensable contribution to our daily lives.
             </p>
         </div>
-    </section>
+    </div>
+</section>
 
-    <footer>
-        <ul>
-            <li><a href="">TERMS</a></li>
-            <li><a href="">ADVERTISE</a></li>
-            <li><a href="contact.html">CONTACT</a></li>
-        </ul>
-        
-        <div>
-            <p>&copy; BETTY AGRO-TOURISN 2024 || ALL RIGHTS RESERVED<br>
-            Designed by AKPET, Kohly M. Obaji</p>
-        </div>
-    </footer>
-
-
-    <script src="../public/js/index.js"></script>
-</body>
-</html>
+<%- include("partials/footer") %>

@@ -12,6 +12,8 @@ p, a, li {
     font-family: "Quicksand", sans-serif;
     text-decoration: none;
     padding-bottom: 9px;
+    line-height: 24px;
+    letter-spacing: 1px;
 }
 
 .btn {
@@ -27,7 +29,7 @@ p, a, li {
     background-color: #0000ff;
 }
 
-.post {
+.home {
     display: flex;
     width: 87%;
     margin: auto;
@@ -121,6 +123,42 @@ footer div{
     font-size: 12px;
 }
 
+.about-section {
+    width: 60%;
+    margin: auto;
+    padding: 90px 0;
+}
+
+.about-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: start;
+}
+
+.profile-pic-container {
+    flex: 0.6;
+    width: 270px;
+    margin-right: 39px;
+    overflow: hidden;
+    aspect-ratio: 0.9;
+    border-radius: 6%;
+}
+
+.profile-pic-container img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.content-container {
+    flex: 1.3;
+    text-align: justify;
+}
+
+.content-container h1 {
+    padding-bottom: 39px;
+}
+
 @media (max-width: 1024px) {
     h1 {
         font-size: 21px;
@@ -134,7 +172,7 @@ footer div{
         font-size: 15px;
     }
 
-    .post {
+    .home {
         display: flex;
         flex-direction: column;
         width: 93%;

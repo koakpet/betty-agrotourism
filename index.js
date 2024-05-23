@@ -49,6 +49,11 @@ app.get('/', function(req, res){
   res.render('index', {posts:posts});
 });
 
+// Route Control for the About Page
+app.get('/about', function(req, res){
+  res.render('about');
+});
+
 // app.get('/posts', function(req, res){
 //   res.render('posts')
 // })
@@ -58,10 +63,7 @@ app.get('/', function(req, res){
 //   res.render('about');
 // });
 
-// Route Control for the About Page
-app.get('/about', function(req, res){
-    res.render('about');
-  });
+
 
 // // Route Controls for the Blog Page
 // app.get('/blog', function(req,res){

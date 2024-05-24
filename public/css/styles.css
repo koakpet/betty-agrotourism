@@ -221,6 +221,7 @@ footer div{
     /*////////////////////*/
     /* ABOUT PAGE STYLES */
     about-section {
+        border: 1px solid red
         width: 96%;
         margin: auto;
         padding: 90px 0;
@@ -236,7 +237,7 @@ footer div{
     .profile-pic-container {
         flex: 0.6;
         width: 270px;
-        margin-right: 39px;
+        margin: 39px;
         overflow: hidden;
         aspect-ratio: 0.9;
         border-radius: 6%;

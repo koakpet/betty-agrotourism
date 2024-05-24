@@ -256,7 +256,7 @@ footer div{
     
     footer ul {
         display: flex;
-        height: 60px;
+        height: 75px;
         width: 54%;
         margin: auto;
         list-style: none;
@@ -268,11 +268,15 @@ footer div{
         font-size: 15px;
     }
 
-    footer div{
+    .copyright {
         width: 96%;
         border-top: #b3b2b2 1px solid;
-        padding: 18px;
+        padding: 30px;
         margin: auto;
-        font-size: 12px;
     }   
+
+    .copyright p {
+        font-size: 12px;
+        line-height: 15px;
+    }
 }

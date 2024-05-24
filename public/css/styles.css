@@ -220,11 +220,8 @@ footer div{
     
     /*////////////////////*/
     /* ABOUT PAGE STYLES */
-    about-section {
-        border: 1px solid red
+    .about-section{
         width: 96%;
-        margin: auto;
-        padding: 90px 0;
     }
 
     .about-container {
@@ -235,12 +232,11 @@ footer div{
     }
 
     .profile-pic-container {
-        flex: 0.6;
         width: 270px;
-        margin: 39px;
+        margin-bottom: 45px;
         overflow: hidden;
         aspect-ratio: 0.9;
-        border-radius: 6%;
+        border-radius: 3%;
     }
 
     .profile-pic-container img {
@@ -251,6 +247,11 @@ footer div{
 
     .content-container {
         flex: 1.3;
+        text-align: left;
+    }
+    
+    .content-container h1 {
+        padding-bottom: 24px;
     }
     
     footer ul {
